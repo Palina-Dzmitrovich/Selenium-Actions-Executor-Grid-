@@ -1,0 +1,32 @@
+{
+  "name": "selenium-actions-executor-grid-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/specs/obligatoryFields.spec.js ./node_modules/mocha/bin/mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palina-Dzmitrovich/Selenium-Actions-Executor-Grid-.git"
+  },
+  "keywords": [
+    "Selenium",
+    "Actions",
+    "JSExecutor",
+    "Grid"
+  ],
+  "author": "Palina Dzmitrovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Palina-Dzmitrovich/Selenium-Actions-Executor-Grid-/issues"
+  },
+  "homepage": "https://github.com/Palina-Dzmitrovich/Selenium-Actions-Executor-Grid-#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^87.0.4",
+    "mocha": "^8.2.1",
+    "msedgedriver": "^87.0.1",
+    "selenium-webdriver": "^4.0.0-alpha.8"
+  }
+}
